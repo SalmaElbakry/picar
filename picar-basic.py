@@ -95,27 +95,9 @@ def turnLeft():
 	#stopcar()
 	
 forward()
-time.sleep(1)  
-stopcar()
-time.sleep(0.25)
-
-backward()
-time.sleep(1)  
+time.sleep(6)  
 stopcar()
 time.sleep(0.25) 
-
-turnLeft()
-time.sleep(1)  
-stopcar()
-time.sleep(0.25)
-	
-turnRight()
-time.sleep(1)  
-stopcar()
-time.sleep(0.25)
-
- 
-
 
 
 print('press Ctrl-C to quit...')
